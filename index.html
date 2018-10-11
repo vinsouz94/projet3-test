@@ -9,74 +9,396 @@
     <link href="css/style.css" rel="stylesheet">
     
     <!----fonts---->
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <!-----captcha---->
+ <script src="https://www.google.com/recaptcha/api.js"></script>
     
+    <!----metadata---->
+    
+    <!-- Open Graph data -->
+<meta property="og:title" content="Festival des Films de Plein Air - 5 au 8 août 2018"/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="http://www.example.com/"/> <!---compltéter site quand adresse trouvé---->
+<meta property="og:image" content="http://example.com/image.jpg"/><!---compltéter image---->
+<meta property="og:description" content="Le Festival des films de Plein Air vous propose des séances de films d'auteurs gratuites de 18 à 00h00 du 5 au 8 aout 2018 au parc Monceau à Paris"/>
+
+    <!-- Twitter Card data -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@Jennifer-Viala">
+<meta name="twitter:title" content="Festival des Films de Plein Air">
+<meta name="twitter:description" content="Le Festival des films de Plein Air vous propose des séances de films d'auteurs gratuite  de 18 à 00h00 du 5 au 8 aout 2018 au parc Monceau à Paris">
+<meta name="twitter:creator" content="@vincent-signoret">
+
+
 </head>
-<!---- body---->
+    <!---- body---->
 <body>
     
     <!----- header---->
-    <header class="container-fluid header">
-        <div class="container">
-            <img src="" a href="#" alt="logo"/><!---ajouter logo et lien---->
-            <nav class="menu">
-                <a href="#"> Acceuil </a>
-                <a href="actu.html"> Actualités </a>
-                <a href="films"> Programmation </a>
-                <a href="#"> Réservation </a>
-                <a href="#"> Contact </a>
-            </nav>
+   <header> 
+  <nav class="navbar navbar-inverse navbar-static-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar2">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html"><img src="images/logos.png" width="120" alt="logo">
+        </a>
+      </div>
+        <div id="navbar2" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="index.html">Accueil</a></li>
+                <li><a href="index.html#about">À propos</a></li>
+                <li><a class="nav-link" href="actu.html">Actualités</a></li>
+                <li><a href="films.html">Films</a></li>    
+                <li><a href="index.html#booking">Réservation</a></li>
+                <li><a href="index.html#contactancre">Contact</a></li>
+            </ul>
         </div>
-    </header>
+    </div>
+
+  </nav>
+
+    
     <!---- end header---->   
         
-    <!---- intro---->
-    <section class="contrainer-fluid intro">
+    <!---- banner---->
+    <section class="container-fluid banner">
         <div class="container">
-        <h1> Festival</h1>    
-        <h1>Les films de plein air</h1>
-        <p> texte d'introdution présentant le festival</p>
+            <div class="row">
+            <h1>FESTIVAL DES FILMS DE PLEIN AIR</h1>
+            <hr>
+            <h3> Paris Parc Monceau - du 5 au 8 août 2019</h3>
+            </div>
         </div>
-        
+        <div class="row">
+            <div class="col-lg-12"> <img class=img-responsive src="images/banner.jpg" style=width:100%>
+            </div>
+        </div>
+             
     </section>
-    <!---- end intro ---->
+  
+    <!---- end banner ---->
+    </header>
+    <!----intro----->
+        <section class="container-fluid presentation">
+            <div class="container">
+            <div class="row">
+            
+            <h2 id="about">À propos de nous</h2>
+            <p> Bienvenue à la première édition du festival des Films de Plein Air. Venez découvrir ou redécouvrir de grands films d'auteurs lors de projections gratuites en pleine air au parc Monceau à Paris. Notre sélection de films vous offres un choix divers et variés.
+            En cas d'intemperri les séances pourront être annuléés. Si vous avez réservé une séance nous vous préviendrons en cas d'annulation par sms.    
+        
+            </p>
+             </div>  
+                <figure><div class="col-md-12 col-lg-12 col-xm-12 col-sm-12">
+                            <img class=img-responsive src="images/parc.jpg" style=width:100%>
+                        </div>
+                    <figcaption>Photographie du parc Monceau</figcaption>
+                </figure>
+            </div> 
+             
+    </section>
+    <!----end intro----->
     
     <!---- actualités---->
-    <section class="contrainer-fluid actualités">
+    <section class="container-fluid actualités">
         <div class="container">
+             <h2>Nos actualités</h2>
+            
+            
+            
         <div class="row">
-            <article class="col-md6 col-lg-6 col-xm-12 col-sm-12">
-                <h2>titre article</h2>
-            </article>
-            <article class="col-md6 col-lg-6 col-xm-12 col-sm-12">
-                <h2>titre article</h2>
-            </article>
-        </div>
+  <div class="col-sm-6 col-md-6">
+    <div class="thumbnail">
+      <img src="images/map.png" alt="...">
+      <div class="caption">
+        <h3>la carte</h3>
+        <p>fnvbneagvbergjnrgkjelgknetrobntrlhkbzrgnlkzetrnh</p>
+        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+      </div>
+    </div>
+  </div>
+       <div class="col-sm-6 col-md-6">
+    <div class="thumbnail">
+      <img src="images/map.png" alt="...">
+      <div class="caption">
+        <h3>la carte</h3>
+        <p>fnvbneagvbergjnrgkjelgknetrobntrlhkbz</p>
+        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+      </div>
+    </div>
+  </div>      
+</div>    
+            
+
+            
+        </div>   
         
     </section>
     <!---- end actualités---->
     
      <!---- Films---->
-    <section class="contrainer-fluid films">
-        
+    <section class="container-fluid films">
+          <div class="container">
+              <h2>Notre programmation</h2>
+            <div class="row low-padding">
+                <div class="col-lg-2 col-md-3 col-sm-4 col-xm-4">
+                    <a href="films.html#film01"><img src="images/01-film.jpg" class="img-fluid" alt="affiche film"></a>
+                </div>    
+                <div class="col-lg-2 col-md-3 col-sm-4 col-xm-4">
+                    <a href="films.html#film02"><img src="images/02-film.jpg" class="img-fluid" alt="affiche film"></a>
+                </div>  
+                <div class="col-lg-2 col-md-3 col-sm-4 col-xm-4">
+                    <a href="films.html#film03"><img src="images/03-film.jpg" class="img-fluid" alt="affiche film"></a>
+                </div>  
+                <div class="col-lg-2 col-md-3 col-sm-4 col-xm-4">
+                    <a href="films.html#film04"><img src="images/04-film.jpg" class="img-fluid" alt="affiche film"></a>
+                </div>  
+                <div class="col-lg-2 col-md-3 col-sm-4 col-xm-4">
+                    <a href="films.html#film05"><img src="images/05-film.jpg" class="img-fluid" alt="affiche film"></a>
+                </div>  
+                <div class="col-lg-2 col-md-3 col-sm-4 col-xm-4">
+                    <a href="films.html#film06"><img src="images/06-film.jpg" class="img-fluid" alt="affiche film"></a>
+                </div> 
+                <div class="col-lg-2 col-md-3 col-sm-4 col-xm-4">
+                    <a href="films.html#film07"><img src="images/07-film.jpg" class="img-fluid" alt="affiche film"></a>
+                </div>    
+                <div class="col-lg-2 col-md-3 col-sm-4 col-xm-4">
+                    <a href="films.html#film08"><img src="images/08-film.jpg" class="img-fluid" alt="affiche film"></a>
+                </div>
+                 <div class="col-lg-2 col-md-3 col-sm-4 col-xm-4">
+                    <a href="films.html#film09"><img src="images/09-film.jpg" class="img-fluid" alt="affiche film"></a>
+                </div>  
+                <div class="col-lg-2 col-md-3 col-sm-4 col-xm-4">
+                    <a href="films.html#film10"><img src="images/10-film.jpg" class="img-fluid" alt="affiche film"></a>
+                </div> 
+                <div class="col-lg-2 col-md-3 col-sm-4 col-xm-4">
+                    <a href="films.html#film11"><img src="images/11-film.jpg" class="img-fluid" alt="affiche film"></a>
+                </div>    
+                <div class="col-lg-2 col-md-3 col-sm-4 col-xm-4">
+                    <a href="films.html#film12"><img src="images/12-film.jpg" class="img-fluid" alt="affiche film"></a>
+                </div> 
+              </div>                
+             </div>
+    
     </section>
     <!---- end Films---->
     
      <!---- réservation---->
-    <section class="contrainer-fluid réservation">
+    <section class="container-fluid reservation">
+        <div class="container">
+            <div class="row">
+                <h2 id="booking">Réservation</h2>
+            </div>
+        </div>
+            
+            <div class="container">
+	<div class="row">
         
-    </section>
+	  <form role="form">
+          
+        <div class="form-group col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                <label for="nom">Nom</label>
+                <input type="text" class="form-control" id="nom" placeholder="nom">
+        </div>
+          
+          
+        <div class="form-group col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                <label for="seance">Nombre de places</label>
+				<select class="form-control" required="" name="place" id="place" size="1">
+                          <option>1
+                          <option>2
+                          <option>3
+                          <option>4
+                          <option>5
+                          <option>6    
+                          <option>7    
+                          <option>8   
+                                             
+                </select>
+                            
+        </div>
+          
+        <div class="form-group col-xs-12 col-sm-12 col-md-4 col-lg-4">
+            <div class="form-group">
+				<label for="seance">Séances</label>
+				<select class="form-control" required="" name="seance" id="seance">
+				<option value="" selected="" disabled="">Ma Séance</option>
+				    <optgroup label="05/08/18">
+				        <option value="18h00">18h00 - Her</option>
+				        <option value="20h00">20h00 - Mulholland Drive</option>
+				        <option value="22h00">22h00 - Moonrise Kingdom</option>
+				    </optgroup>
+				    <optgroup label="06/08/18">
+				        <option value="18h00">18h00 - The Thing</option>
+				        <option value="20h00">20h00 - 21 Grammes</option>
+				        <option value="22h00">22h00 - Old Boy</option>
+				    </optgroup>
+				    <optgroup label="07/08/18">
+				        <option value="18h00">18h00 - L'assassinat de Jesse James</option>
+				        <option value="20h00">20h00 - L'Etrange Noël de M. Jack</option>
+				        <option value="22h00">22h00 - J'ai tué ma mère</option>
+				    </optgroup>
+				    <optgroup label="08/08/18">
+				        <option value="18h00">18h00 - La Nuit nous appartient</option>
+				        <option value="20h00">20h00 - The Tree of Life</option>
+				        <option value="22h00">22h00 - La Piel que Habito</option>
+				    </optgroup>
+                </select>
+						<div class="invalid-tooltip">
+									Choisissez votre séance.
+						</div>
+            </div>
+        </div>
+          
+        <div class="clearfix"></div>
+          
+        <div class="form-group col-xs-12 col-sm-12 col-md-3 col-lg-3">
+            <label for="email">Adresse mail</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Entrer votre email">     
+        </div>
+          
+        <div class="form-group col-xs-12 col-sm-12 col-md-3 col-lg-3">
+            <label for="phone">Téléphone</label>
+            <input type="tel" class="form-control" id="phone" placeholder="Téléphone">
+        </div>
+          
+        <div class="clearfix"></div>
+        <div class="col-xs-12 col-sm-12 col-md-1 col-lg-1">
+           <div class="g-recaptcha" 
+          data-sitekey="6LeuNQITAAAAAPGRU7dkrCPIrrR64WPvzMc7pn6Z">
+            </div> 
+        </div>
+            <div class="clearfix"></div>
+             <div class="col-xs-12 col-sm-12 col-md-1 col-lg-1">
+            <button type="submit" class="btn btn-default">Submit</button>
+        </div>
+       
+        
+                 
+         
+
+       
+    </form>
+        
+    <div class="clearfix"></div>
+ 
+    <br /><br />
+	</div>
+</div>
+            
+        
+        
+        
+    </section>    
+    
     <!---- end réservation---->
     
     <!---- contact---->
-    <section class="contrainer-fluid contact">
+    <section class="container-fluid contact">
+        <div class="container">
+            <div class="row">
+                <h2 id="contactancre">Contact</h2>
+            </div>
+        </div>  
         
+        
+   <div class="container-fluid contact2">  
+       <div class="container">
+         <div class="row coordonnées">
+           
+                <div class="coord col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <h4> Nos coordonnées</h4>
+                    <p>Pour toute demande d'information,vous pouvez nous contacter par téléphone du lundi au vendredi de 10h00 à 18h00 ou bien nous contacter par mail ou directement via le formulaire de contact.</p>
+                    <ul>
+                <li><span class="bold">tel:</span> 06.36.65.65.65 </li>
+                <li><span class="bold">Email:</span> contact@filmsdepleinair.com</li>
+                <li><span class="bold">Adresse:</span> 104 rue de bonheur,75001 PARIS </li>
+                    </ul>    
+                </div>
+            
+        
+        <form class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+  <legend>Contactez-nous</legend>
+    <div class="form-group">
+      <label for="texte">Nom: </label><input id="text" type="text" class="form-control">
+    </div>
+      <div class="form-group">
+      <label for="texte">Prénom: </label><input id="text" type="text" class="form-control">
+    </div>  
+       <div class="form-group">     
+      <label for="exampleInputEmail1">Adresse Email: </label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+  </div>
+    <div class="form-group">
+      <label for="textarea">Votre message: </label> <textarea id="textarea" type="textarea" class="form-control"></textarea>
+    </div>
+    <div class="form-group">
+      <div class="g-recaptcha" 
+          data-sitekey="6LeuNQITAAAAAPGRU7dkrCPIrrR64WPvzMc7pn6Z">
+          </div>
+      <div class="button">
+          <button type="submit">Envoyer</button>
+        </div>
+            </div>
+        </form>
+          
+       </div>   
+    </div> 
+  </div>
     </section>
     <!---- end contact----> 
     
    
+      
     
     <!----- footer ---->
     <footer>
+        <footer id="myFooter">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3 col-lg-3">
+                    <a class="footer-brand" href="index.html"><img src="images/logos.png" width="200"></a> 
+                </div>
+                <div class="col-sm-2 col-lg-2">
+                    <h5>Plan du site</h5>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="#">À propos</a></li>
+                        <li><a href="#">Actualités</a></li>
+                        <li><a href="index.html">Films</a></li>
+                        <li><a href="index.html#booking">Réservation</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2 col-lg-3">
+                    <h5>Contact</h5>
+                    <ul>
+                        <li>Adresse:104 rue de bonheur,<br>75001 PARIS </li>
+                        <li>tel: 06.36.65.65.65 </li>
+                        <li>Email: contact@filmsdepleinair.com</li>
+                        <li><a href="index.html#booking">Nous-contacter</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2 col-lg-3">
+                    <h5>Réseaux sociaux</h5>
+                        <a class="iconfb" href="index.html"><img src="images/facebook.png" width="50"></a> 
+                        <a class="icontwitter" href="index.html"><img src="images/twitter.png" width="50"></a> 
+                        <a class="iconinsta" href="index.html"><img src="images/insta.png" width="50"></a> 
+                </div>
+                
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>© Vincent Signoret - Projet 3 OpenClassromms </p>
+        </div>
+    </footer>
+        
     </footer>
 </body>
-     <!---- end body ---->
+     <!---- end body ---->    
